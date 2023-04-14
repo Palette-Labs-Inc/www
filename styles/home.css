@@ -21,20 +21,20 @@
   object-fit: cover;
 }
 .card-heading {
-  color: rgb(18, 40, 33);
+  color: var(--dl-color-paperblack-white);
   font-size: 24px;
   max-width: 600px;
   font-style: normal;
   font-weight: 500;
 }
 .card-text {
-  color: rgb(18, 40, 33);
+  color: var(--dl-color-paperblack-white);
   max-width: 600px;
   font-family: Lato;
   line-height: 24px;
 }
 .card-text1 {
-  color: rgb(18, 40, 33);
+  color: var(--dl-color-paperblack-white);
   max-width: 600px;
   font-family: Lato;
   line-height: 24px;
@@ -111,7 +111,7 @@
   object-fit: cover;
 }
 .footer-text {
-  color: rgb(18, 40, 33);
+  color: var(--dl-color-paperblack-white);
   width: 100%;
   font-size: 18px;
   font-family: Lato;
@@ -132,7 +132,7 @@
   margin-right: 3px;
 }
 .footer-text01 {
-  color: rgb(18, 40, 33);
+  color: var(--dl-color-paperblack-white);
   width: 100%;
   font-size: 18px;
   font-family: Lato;
@@ -198,7 +198,7 @@
   flex-direction: row;
 }
 .footer-copyright {
-  color: rgb(18, 40, 33);
+  color: var(--dl-color-paperblack-white);
   width: 100%;
   font-size: 14px;
   font-family: Lato;
@@ -222,6 +222,7 @@
   display: none;
   align-items: flex-start;
   flex-direction: column;
+  color: var(--dl-color-paperblack-white);
 }
 @media(max-width: 991px) {
   .footer-footer {
@@ -311,8 +312,19 @@
   justify-content: center;
   color:#fff;
 }
+
+.footer-link {
+  padding-top: var(--dl-space-space-twounits);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  color:#fff;
+}
+
 .home-link {
-  color: rgb(18, 40, 33);
+  color: var(--dl-color-paperblack-white);
   font-size: 18px;
   font-family: Lato;
   line-height: 27px;
@@ -327,7 +339,7 @@
 
 }
 .home-link1 {
-  color: rgb(18, 40, 33);
+  color: var(--dl-color-paperblack-white);
   font-size: 18px;
   font-family: Lato;
   line-height: 27px;
@@ -342,7 +354,7 @@
 }
 
 .home-link2 {
-  color: rgb(18, 40, 33);
+  color: var(--dl-color-paperblack-white);
   font-size: 18px;
   font-family: Lato;
   line-height: 27px;
@@ -357,7 +369,7 @@
 }
 
 .home-button {
-  color: rgb(18, 40, 33);
+  color: var(--dl-color-paperblack-white);
   display: none;
   font-size: 18px;
   font-family: Lato;
@@ -423,7 +435,7 @@
   height: 7px;
 }
 .home-text07 {
-  color: rgba(18, 40, 33, 1);
+  color: var(--dl-color-paperblack-white);
   font-size: 18px;
   font-family: Lato;
   line-height: 27px;
@@ -452,7 +464,7 @@
   line-height: 27px;
   border-radius: 28px;
   text-decoration: none;
-  background-color: rgb(18, 40, 33);
+  background-color: var(--dl-color-paperblack-white);
 }
 .home-link4 {
   color: var(--dl-color-paperblack-white);
@@ -461,7 +473,7 @@
   line-height: 27px;
   border-radius: 28px;
   text-decoration: none;
-  background-color: rgb(18, 40, 33);
+  background-color: var(--dl-color-paperblack-white);
 }
 .home-link5 {
   color: var(--dl-color-paperblack-white);
@@ -470,7 +482,7 @@
   line-height: 27px;
   border-radius: 28px;
   text-decoration: none;
-  background-color: rgb(18, 40, 33);
+  background-color: var(--dl-color-paperblack-white);
 }
 .home-hero {
   gap: var(--dl-space-space-threeunits);
@@ -525,7 +537,10 @@
   height: 330px;
   position: absolute;
   object-fit: cover;
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
 }
+
 .home-image03 {
   width: 720px;
   height: 700px;
@@ -566,7 +581,7 @@
   padding-bottom: 120px;
 }
 .home-text10 {
-  color: rgba(18, 40, 33, 1);
+  color: var(--dl-color-paperblack-white);
   font-size: 40px;
   max-width: 1000px;
   font-style: normal;
@@ -580,6 +595,7 @@
 }
 .home-text13 {
   line-height: 21px;
+  color: var(--dl-color-paperblack-white);
 }
 .home-improve {
   gap: var(--dl-space-space-fiveunits);
@@ -599,7 +615,7 @@
   flex-direction: column;
 }
 .home-text14 {
-  color: rgb(18, 40, 33);
+  color: var(--dl-color-paperblack-white);
   font-size: 40px;
   max-width: 600px;
   font-style: normal;
@@ -608,7 +624,7 @@
   line-height: 51px;
 }
 .home-text17 {
-  color: rgb(18, 40, 33);
+  color: var(--dl-color-paperblack-white);
   font-size: 20px;
   max-width: 600px;
   text-align: center;
@@ -627,7 +643,7 @@
   flex-direction: column;
 }
 .home-text20 {
-  color: rgb(18, 40, 33);
+  color: var(--dl-color-paperblack-white);
   width: 100%;
   font-size: 56px;
   max-width: 1000px;
@@ -685,7 +701,7 @@
   font-weight: 500;
 }
 .home-text22 {
-  color: rgb(18, 40, 33);
+  color: var(--dl-color-paperblack-white);
   font-size: 20px;
   max-width: 300px;
   font-family: Lato;
@@ -1080,7 +1096,7 @@
   justify-content: center;
 }
 .home-text36 {
-  color: rgb(18, 40, 33);
+  color: var(--dl-color-paperblack-white);
   width: 100%;
   font-size: 56px;
   max-width: 800px;
@@ -1089,7 +1105,7 @@
   font-weight: 500;
 }
 .home-text37 {
-  color: rgb(18, 40, 33);
+  color: var(--dl-color-paperblack-white);
   width: 100%;
   font-size: 20px;
   text-align: center;
@@ -1157,7 +1173,7 @@
   justify-content: center;
 }
 .home-notice1 {
-  color: rgb(18, 40, 33);
+  color: var(--dl-color-paperblack-white);
   width: 100%;
   font-size: 12px;
   max-width: 305px;
@@ -1390,23 +1406,24 @@
     height: 8px;
   }
   .home-link3 {
-    color: rgb(18, 40, 33);
+    color: var(--dl-color-paperblack-white);
     padding-left: 0px;
     background-color: transparent;
   }
   .home-link4 {
-    color: rgb(18, 40, 33);
+    color: var(--dl-color-paperblack-white);
     padding-left: 0px;
     background-color: transparent;
   }
   .home-link5 {
-    color: rgb(18, 40, 33);
+    color: var(--dl-color-paperblack-white);
     padding-left: 0px;
     background-color: transparent;
   }
   .home-title {
     font-size: 36px;
     line-height: 46px;
+    color: var(--dl-color-paperblack-white);
   }
   .home-description {
     font-size: 16px;
@@ -1417,15 +1434,18 @@
     height: 184px;
   }
   .home-mission {
+    color: var(--dl-color-paperblack-white);
     align-items: center;
   }
   .home-text14 {
     font-size: 32px;
     line-height: 41px;
+    color: var(--dl-color-paperblack-white);
   }
   .home-text17 {
     font-size: 16px;
     line-height: 24px;
+    color: var(--dl-color-paperblack-white);
   }
   .home-content1 {
     align-items: center;
@@ -1433,6 +1453,7 @@
   .home-text22 {
     max-width: 100%;
     text-align: center;
+    color: var(--dl-color-paperblack-white);
   }
   .home-column09 {
     gap: var(--dl-space-space-halfunit);
@@ -1516,5 +1537,6 @@
   }
   .home-email {
     width: 100%;
+    color: var(--dl-color-paperblack-white);
   }
 }
