@@ -6,8 +6,6 @@ html {
   height: 100%;
   background-color: #040D22;
 }
-
-
   .flex-wrapper {
     display: flex;
     align-items: center;
@@ -37,5 +35,8 @@ html {
       Set the container's background color to the same as the scene's
       background to prevent flashing on load
     */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
     background-color: #040D22;
   }
