@@ -298,6 +298,7 @@
   height: var(--dl-size-size-small);
   object-fit: cover;
 }
+
 .home-desktop-menu {
   display: flex;
 }
@@ -308,6 +309,7 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
+  color:#fff;
 }
 .home-link {
   color: rgb(18, 40, 33);
@@ -321,6 +323,8 @@
   padding-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
   background-color: transparent;
+  color:#fff;
+
 }
 .home-link1 {
   color: rgb(18, 40, 33);
@@ -334,7 +338,9 @@
   padding-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
   background-color: transparent;
+  color:#fff;
 }
+
 .home-link2 {
   color: rgb(18, 40, 33);
   font-size: 18px;
@@ -347,7 +353,9 @@
   padding-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
   background-color: transparent;
+  color:#fff;
 }
+
 .home-button {
   color: rgb(18, 40, 33);
   display: none;

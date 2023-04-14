@@ -19,6 +19,9 @@ module.exports = {
         },
       ],
     }),
+    new CopyPlugin({'patterns': [
+      {from:'./public/playground_assets', to:'./public/playground_assets'}
+    ]}),
     new HtmlWebpackPlugin({
       filename: 'index.html',
       inject: true,
