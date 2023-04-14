@@ -16,8 +16,10 @@
   --dl-color-green-700: #477a54ff;
   --dl-color-green-800: #375f41ff;
   --dl-color-green-900: #2a4832ff;
+  --dl-color-green-jungle: #69A583;
   --dl-size-size-large: 144px;
   --dl-size-size-small: 48px;
+  --dl-size-size-small2: 64px;
   --dl-size-size-medium: 96px;
   --dl-size-size-xlarge: 192px;
   --dl-size-size-xsmall: 16px;
@@ -49,6 +51,54 @@
   --dl-color-background: #040D22;
 }
 
+.home-link6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 50px;
+  padding: 15px 36px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 12px;
+  background-image: url("../public/playground_assets/gradient.svg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: #000;
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.devbutton {
+  color: rgb(18, 40, 33);
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+  font-family: 'Source Code Pro', monospace;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: 46px;
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: rgba(230, 249, 224, 1);
+}
+.devbutton:hover {
+  background-image: url("../public/playground_assets/hover_gradient.svg");
+}
+
 .button {
   color: rgb(18, 40, 33);
   cursor: pointer;
@@ -63,6 +113,7 @@
   padding-bottom: var(--dl-space-space-unit);
   background-color: rgba(230, 249, 224, 1);
 }
+
 .button:hover {
   opacity: 0.5;
 }
