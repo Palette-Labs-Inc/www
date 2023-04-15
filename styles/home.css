@@ -117,6 +117,12 @@
   font-family: Lato;
   line-height: 18px;
 }
+
+.footer-social-img {
+  height: var(--dl-size-size-small0);
+  width: var(--dl-size-size-small0);
+}
+
 .footer-contact1 {
   gap: 11px;
   display: flex;

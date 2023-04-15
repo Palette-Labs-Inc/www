@@ -86,22 +86,32 @@
               data-role="Nav"
               class="home-desktop-menu"
             >
+
               <nav class="home-links">
-                <!--a href="#Restaurant" class="home-link button">
-                  <span>For Restaurants</span>
+                <div class="footer-social-list">
+                  <a href="https://twitter.com/NoshDelivery" target="_blank"
+                  class="social-link w-inline-block">
+                  <img
+                  src="./public/playground_assets/twitter.svg"
+                  loading="lazy"  alt="Twitter" class="social-link-image" />
+                  <a href="https://twitter.com/NoshDelivery" target="_blank"
+                  class="social-link w-inline-block">
+                  <img
+                  src="./public/playground_assets/mastodon.svg"
+                  loading="lazy"  alt="Twitter" class="social-link-image"/>
                 </a>
-                <a href="#Driver" class="home-link1 button">
-                  <span>
-                    <span>For Couriers</span>
-                    <br />
-                  </span>
-                </a-->
-                <a href="#" class="home-link6 devbutton">
-                  <span>
-                    <span>Protocol Documentation</span>
-                    <br />
-                  </span>
-                </a>
+                  <a href="https://discord.com/"
+                  target="_blank" class="social-link w-inline-block">
+                  <img
+                  src="./public/playground_assets/github.svg"
+                  loading="lazy"  alt="GitHub"  class="social-link-image"/></a>
+              </div>
+              <a href="#" class="home-link6 devbutton">
+                <span>
+                  <span>Protocol Documentation</span>
+                  <br />
+                </span>
+              </a>
                 <button class="home-button button">Menu</button>
               </nav>
             </div>
@@ -134,12 +144,24 @@
                 </div>
               </div>
               <nav class="home-links1">
-                <!--a href="#Restaurant" class="home-link3 button">
-                  <span>For Restaurants</span>
+                <div class="footer-social-list">
+                  <a href="https://twitter.com/NoshDelivery" target="_blank"
+                  class="social-link w-inline-block">
+                  <img
+                  src="./public/playground_assets/twitter.svg"
+                  loading="lazy"  alt="Twitter" class="social-link-image" />
+                  <a href="https://twitter.com/NoshDelivery" target="_blank"
+                  class="social-link w-inline-block">
+                  <img
+                  src="./public/playground_assets/mastodon.svg"
+                  loading="lazy"  alt="Twitter" class="social-link-image"/>
                 </a>
-                <a href="#Driver" class="home-link4 button">
-                  <span>For Couriers</span>
-                </a-->
+                  <a href="https://discord.com/"
+                  target="_blank" class="social-link w-inline-block">
+                  <img
+                  src="./public/playground_assets/github.svg"
+                  loading="lazy"  alt="GitHub"  class="social-link-image"/></a>
+              </div>
                 <a href="#" class="home-link6 devbutton">
                   <span>
                     <span>Protocol Documentation</span>
@@ -548,35 +570,68 @@
             <div id="waitlist-form" class="form-block w-form">
               <form id="wf-form-Join-waitlist-form" name="wf-form-Join-waitlist-form" data-name="Join waitlist form"
                 method="post" class="center-form">
-                <div class="input-wrap"><label for="Email" class="field-label active"><span class="input-error">please
-                      enter valid email</span></label><input type="text" class="input w-input" maxlength="256"
-                    name="Email" data-name="Email" placeholder="email" id="Email" required="" /></div>
-                <div class="input-wrap"><label for="Name" class="field-label active"><span class="input-error">please
-                      enter your full name</span></label><input type="text" class="input w-input" maxlength="256"
+                <div class="container">
+                <div class="input-wrap"><label for="Email" class="field-label active">
+                  <span class="input-error">please
+                      enter valid email</span>
+                    </label>
+                    <input type="text" class="input w-input" maxlength="256"
+                    name="Email" data-name="Email" placeholder="email" id="Email" required="" />
+                  </div>
+                <div class="input-wrap">
+                  <label for="Name" class="field-label active">
+                    <span class="input-error">please
+                      enter your full name</span>
+                    </label>
+                    <input type="text" class="input w-input" maxlength="256"
                     name="Name" data-name="Name" placeholder="full name (optional)" id="Name"
-                    required="" /></div>
-                    <div class="container">
-                    <div ><label class="w-checkbox checkbox-styled"><input type="checkbox" id="Boulder"
-                      name="Boulder" data-name="Boulder" class="w-checkbox-input" /><span class="checkbox-label w-form-label"
-                      for="Boulder">By subscribing, you accept to receive communications from
-                      OCC, Princeton HCI, and/or Palette Labs, Inc. to your email address.</span></label></div>
-                
+                    required="" />
+                  </div>
+                    <div class="input-wrap">
+                      <label class="w-checkbox checkbox-styled" class="field-label active">
+                      
+                        <input type="checkbox" class="input w-input" id="OptIn"
+                      name="OptIn" data-name="OptIn"  class="w-checkbox-input"
+                      />
+                      <span class="checkbox-label w-form-label" class="field-label active"
+                      for="OptIn">By subscribing, you accept to receive communications from
+                      OCC, Princeton HCI, and/or Palette Labs, Inc. to your email address.</span>
+                      
+                      <span class="input-error">please
+                        check the box</span>
+
+                    </label>
+                    
+                    </div>
+              </div>
+              <div class="container">
                 <div data-action="submit" class="home-link6 submitbutton">
                   Subscribe
                 </div>
               </div>
-
               </form>
+              
               <div class="success-message w-form-done">
                 <h2 class="form-heading">You&#x27;ve joined the mailing list!</h2>
-                <div class="margin-bottom-60">Keep your eyes peeled for news &amp; updates by following us on twitter or joining the dicord</div>
-                <div class="footer-social-list"><a href="https://twitter.com/NoshDelivery" target="_blank"
-                    class="social-link w-inline-block"><img
-                    src="./assets/svg/twitter.svg"
-                    loading="lazy" width="18" height="14" alt="Twitter" /></a><a href="https://discord.com/"
-                    target="_blank" class="social-link w-inline-block"><img
-                    src="./assets/svg/discord.svg"
-                    loading="lazy" width="18" height="14" alt="Discord" /></a></div>
+                <div class="margin-bottom-60 form-subheading">Follow us on social</div>
+                <div class="footer-social-list">
+                  <a href="https://twitter.com/NoshDelivery" target="_blank"
+                  class="social-link w-inline-block">
+                  <img
+                  src="./public/playground_assets/twitter.svg"
+                  loading="lazy"  alt="Twitter" class="social-link-image" />
+                  <a href="https://twitter.com/NoshDelivery" target="_blank"
+                  class="social-link w-inline-block">
+                  <img
+                  src="./public/playground_assets/mastodon.svg"
+                  loading="lazy"  alt="Twitter" class="social-link-image"/>
+                </a>
+                  <a href="https://discord.com/"
+                  target="_blank" class="social-link w-inline-block">
+                  <img
+                  src="./public/playground_assets/github.svg"
+                  loading="lazy"  alt="GitHub"  class="social-link-image"/></a>
+              </div>
               </div>
               <div class="w-form-fail"></div>
             </div>
@@ -639,8 +694,8 @@
                 <div class="footer-contact">
                   <img
                     alt="image"
-                    src="public/playground_assets/githublogo1.svg"
-                    class="footer-image"
+                    src="public/playground_assets/github.svg"
+                    class="footer-social-img"
                   />
                   <span class="footer-text"><span>Give us a star</span></span>
                 </div>
@@ -648,10 +703,20 @@
                   <img
                     alt="image"
                     src="public/playground_assets/mastodon.svg"
-                    class="footer-image1"
+                    class="footer-social-img"
                   />
                   <span class="footer-text01">
                     <span>Follow us on Mastodon</span>
+                  </span>
+                </div>
+                <div class="footer-contact1">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/twitter.svg"
+                    class="footer-social-img"
+                  />
+                  <span class="footer-text01">
+                    <span>Follow us on Twitter</span>
                   </span>
                 </div>
               </div>
@@ -707,6 +772,9 @@
           <style>
             .input-error {
               display: none;
+              color:#d12e44;
+              font-size: 14px;
+              font-family: 'Source Code Pro', monospace;
             }
           </style>
           <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=62ac94b910f3cf14de574ab9"
@@ -715,7 +783,7 @@
           <script>
             const formSubmitted = function () {
               $('.success-message').show()
-              $('form').hide()
+              $('.center-form').hide()
             }
       
             const sendFormData = function () {
@@ -728,6 +796,7 @@
       
               formData.append('Pubkey', pubkey);
               formData.append('Source', source);
+              
       
               // script url and form have to be added externally in page settings
               fetch(scriptURL, { method: 'POST', body: formData })
@@ -758,8 +827,10 @@
                 var characterCount = value.length;
       
                 switch ($(this).attr('data-name')) {
-                  // email inputs
-                  case 'Customer-Email':
+                  case 'OptIn':
+                    console.log($(this).is(':checked'));
+                    error = $(this).is(':checked') == true ? false : true;
+                    break;
                   case 'Email':
                     if (characterCount < 3) error = true;
                     else if (!validateEmail(value)) error = true;
@@ -776,8 +847,6 @@
                   case 'Name':
                     error = false;
                     break;
-                  case 'Boulder':
-                    error = false;
                   default:
                     break;
                 }
@@ -815,9 +884,26 @@
         </div>
       </div>
     </div>
-    <script
-      data-section-id="navbar"
-      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script>
+    <script>
+      // Form data to Google Spreadsheets
+      // points to the first sheet in the doc
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbw8jOO_LtIX1fOGNGmIi59JP01HatQ92JHjDxlnV-0mah1uaClk5yGQjjwfeQSyyCWxYw/exec';
+      const form = document.forms["wf-form-Join-waitlist-form"];
+    </script>
+            <div>
+              <dangerous-html
+                html="<style>
+        .partner-container:hover .partner-image{
+            filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(75deg) brightness(101%) contrast(102%);
+        }
+    </style>"
+              ></dangerous-html>
+            </div>
+          </div>
+        </div>
+        <script
+          data-section-id="navbar"
+          src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+        ></script>
   </body>
 </html>
