@@ -358,16 +358,14 @@ textarea.w-select {
 
 
 .submitbutton {
-    max-width: var(--dl-size-size-maxwidth);
+    width: 400px;
     color: rgb(18, 40, 33);
     cursor: pointer;
     font-size: 14px;
     transition: 0.3s;
     font-family: 'Source Code Pro', monospace;
     padding-top: var(--dl-space-space-unit);
-    padding-left: var(--dl-space-space-twounits);
     border-radius: 46px;
-    padding-right: var(--dl-space-space-twounits);
     padding-bottom: var(--dl-space-space-unit);
     background-color: rgba(230, 249, 224, 1);
     display: inline-block;
@@ -446,7 +444,7 @@ textarea.w-select {
     display: block;
     margin-bottom: 20px;
     padding-left: 20px;
-    max-width: 700px;
+    width: 400px;
     align-items: center;
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
