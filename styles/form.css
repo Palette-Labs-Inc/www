@@ -1,16 +1,9 @@
-.waitlist-form {
-    width: 100%;
-    max-width: none;
-    padding-top: 0;
-    padding-right: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-twounits);
-}
+
 
 .center-form{
     bottom: 0;
     height: 100%;
     width: 100%;
-    
 }
 
 .w-form {
@@ -275,8 +268,7 @@ textarea.w-select {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 100%;
-    max-width: 1150px;
+    
     margin-right: auto;
     margin-left: auto;
     -webkit-box-orient: vertical;
@@ -291,18 +283,35 @@ textarea.w-select {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
+    align-items: center;
+}
+
+.form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center
 }
 
 .container.s {
-    max-width: 900px
+    max-width: 300px
 }
 
 
 
 @media screen and (max-width:479px) {
     .container {
-        width: 100%;
+       
         -webkit-box-align: center;
         -webkit-align-items: center;
         -ms-flex-align: center;
@@ -329,33 +338,37 @@ textarea.w-select {
 
 .input-wrap {
     position: relative;
-    width: 100%;
     margin-bottom: 0;
     text-align: left;
     gap: var(--dl-space-space-threeunits);
-    max-width: var(--dl-size-size-maxwidth);
     display: inline-block;
     text-align: center;
+    width: 100%;
+    max-width: none;
+    padding: 0 20px; /* 20px padding on the left and right edges */
+}
+
+.input {
+    width: 100%;
+    max-width: none;
+    padding: 0 20px; /* 20px padding on the left and right edges */
+    margin-bottom: 20px;
+    padding: 20px 24px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background-color: #fff;
+    -webkit-transition: border-color .3s;
+    transition: border-color .3s;
+    color: #000;
+    font-size: 16px;
+    align-items: center;
+    flex-direction: column;
 }
 
 .form-block {
     display: block
 }
 
-.input {
-    width: 660px;
-    margin-bottom: 20px;
-    padding: 20px 24px;
-    border: 1px solid transparent;
-    border-radius: 12px;
-    background-color: #131e45;
-    -webkit-transition: border-color .3s;
-    transition: border-color .3s;
-    color: #fff;
-    font-size: 16px;
-    align-items: center;
-    flex-direction: column;
-}
 
 .submitbutton {
     color: rgb(18, 40, 33);
@@ -510,6 +523,8 @@ textarea.w-select {
 }
 
 
+
+
 .div-block-5 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -531,7 +546,8 @@ textarea.w-select {
 
 .div-block-6 {
     width: 100%;
-    text-align: left;
+    align-items: center;
+    display: flex;
 }
 
 .italic-text {
@@ -645,4 +661,69 @@ textarea.w-select {
     width: 100%;
     height: 100%;
     display: flex;
+}
+
+.section {
+    position: relative;
+    z-index: 2;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    min-height: 70vh;
+    margin-top: 80px;
+    padding: 20px 5%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center
+}
+
+.section.last-section {
+    padding-bottom: 5vh
+}
+
+.page {
+    position: relative;
+    background-color: #000;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+.container {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 1150px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
 }

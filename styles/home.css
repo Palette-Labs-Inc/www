@@ -602,6 +602,17 @@
   font-weight: 500;
   line-height: 51px;
 }
+
+.home-text10-2 {
+  color: var(--dl-color-paperblack-white);
+  font-size: 40px;
+  max-width: 1000px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 51px;
+  padding-bottom: 40px;
+}
+
 .home-link6 {
   color: var(--dl-color-green-900);
   text-decoration: none;
@@ -938,6 +949,7 @@
   font-weight: 500;
   line-height: 46px;
 }
+
 .home-description1 {
   color: rgb(230, 249, 224);
   width: 100%;
@@ -947,6 +959,16 @@
   font-family: Lato;
   line-height: 30px;
 }
+
+.home-description2 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  font-family: Lato;
+  line-height: 30px;
+  padding-bottom: 40px;
+}
+
 .home-mission1 {
   width: 100%;
   display: flex;
@@ -1148,8 +1170,9 @@
   flex-direction: row;
   padding-bottom: 2px;
   justify-content: center;
-  background-color: #F3F3F3;
+  background-color: #fff;
 }
+
 .home-textinput {
   flex: 1;
   color: #122821;
@@ -1158,6 +1181,7 @@
   font-weight: 600;
   background-color: transparent;
 }
+
 .home-submit {
   width: 56px;
   cursor: pointer;
@@ -1168,11 +1192,11 @@
   border-radius: var(--dl-radius-radius-round);
   flex-direction: row;
   justify-content: center;
-  background-color: var(--dl-color-palette-green);
+  background-image: url("../public/playground_assets/gradient.svg");
 }
 
 .home-submit:hover {
-  background-color: var(--dl-color-green-900);
+  background-image: url("../public/playground_assets/hover_gradient.svg");
 }
 
 .home-image28 {
@@ -1257,10 +1281,7 @@
     text-align: center;
     line-height: 23px;
   }
-  .home-link6 {
-    width: 100%;
-    text-align: center;
-  }
+
   .home-text13 {
     font-family: Lato;
   }
