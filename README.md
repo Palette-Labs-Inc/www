@@ -1,4 +1,4 @@
-# Github globe example
+# Open Commerce Coalition Website
 
 ![Globe](/static/globe.png)
 
