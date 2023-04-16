@@ -4,10 +4,7 @@
 
 ## Introduce
 
-Its a similar [github home](https://github.com/home) example page, just for fun and study. Use modular javascript to rewirte [github-globe](https://github.com/janarosmonaliev/github-globe);
-
-## Live demo
-[github globe module](https://kevinzhang19870314.github.io/github-globe-module/)
+Inspired by [github home](https://github.com/home). Rewriting [github-globe](https://github.com/janarosmonaliev/github-globe) in modular javascript.
 
 ## Developer guide
 1. `npm install`;
